@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "BeatSaver Helper",
+  "version": "0.1.0",
+  "description": "Rename Beatmap file when downloading.",
+  "permissions": [
+    "downloads",
+    "https://api.beatsaver.com/*"
+  ],
+  "background": {
+    "scripts": ["service_worker.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://beatsaver.com/*"
+      ],
+      "js": [
+        "scripts/content_script_beatsaver.js"
+      ]
+    }
+  ]
+}
