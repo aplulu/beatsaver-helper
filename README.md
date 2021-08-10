@@ -19,3 +19,7 @@ BeatSaver.comからのビートマップダウンロード時にファイル名�
 * `デベロッパーモード`をオンにします。
 * `パッケージ化されていない拡張機能を読み込む`ボタンをクリックします。
 * 解凍したディレクトリ/フォルダを選択して開くをクリックします。
+
+### Firefox
+
+[beatsaver_helper-fx.xpi](https://github.com/aplulu/beatsaver-helper/releases/latest/download/beatsaver_helper-fx.xpi) を開いてインストールします。
